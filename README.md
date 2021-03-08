@@ -1,5 +1,5 @@
 # OPFOR
-Code to implement Ordinal Probit Functional Outcome Regression as described by Meyer et al. (2020).
+Code to implement Ordinal Probit Functional Outcome Regression as described by Meyer et al. (2021).
 
 sample_script.m contains a sample script based off of a single simulated dataset. Sample code to implement all six models from the manuscript is in this file.
 
