@@ -73,11 +73,11 @@ model.basis = 'O-Spline'; % K = 4; Kp = 2;
 res_OS4     = opfor(Y, model);
 
 %% run B-Spline model using defaults %%
-model.basis = 'B-Spline'; % K = 4; Kp = 2;
+model.basis = 'B-Spline'; % K = 10; Kp = 2; degreee = 3; alps = 0.01;
 res_BS10    = opfor(Y, model);
 
 %% run B-Spline model using defaults %%
-model.basis = 'wavelet'; % wavelet = sym8; wtmode = sym; nlevels = 6
+model.basis = 'wavelet'; % wavelet = sym8; wtmode = sym; nlevels = 6;
 res_SYM6    = opfor(Y, model);
 
 %% run O-Spline model setting specs %%
