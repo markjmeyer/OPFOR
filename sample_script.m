@@ -8,8 +8,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% add paths %%
-% addpath('~/Code');
-addpath('/Users/mjm556/Documents/Research/OPFM/Code')
+addpath('~/Code');
 
 %% paths to access R from matlab (only run once for O-Splines) %%
 path1 = getenv('PATH');
@@ -73,10 +72,10 @@ model.basis = 'O-Spline'; % K = 4; Kp = 2;
 res_OS4     = opfor(Y, model);
 
 %% run B-Spline model using defaults %%
-model.basis = 'B-Spline'; % K = 10; Kp = 2; degreee = 3; alps = 0.01;
+model.basis = 'B-Spline'; % K = 10; Kp = 2; degree = 3; alps = 0.01;
 res_BS10    = opfor(Y, model);
 
-%% run B-Spline model using defaults %%
+%% run wavelet model using defaults %%
 model.basis = 'wavelet'; % wavelet = sym8; wtmode = sym; nlevels = 6;
 res_SYM6    = opfor(Y, model);
 
