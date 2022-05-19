@@ -11,10 +11,10 @@
 library(R.matlab)
 library(splines)
 
-setwd('/Users/mjm556/Documents/Code')
+setwd('./Documents/Code')
 source('formOmega.R')
 
-setwd('/Users/mjm556/Documents/MATLAB')
+setwd('./Documents/MATLAB')
 Dlist	<- readMat('D.mat')
 Klist	<- readMat('K.mat')
 
