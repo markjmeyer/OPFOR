@@ -23,7 +23,7 @@ switch basis
         Bspecs.GKPen    = 1;
     case 'O-Spline'
         %% save osullivan.R inputs for flat file communication %%
-        cd('/Users/mjm556/Documents/MATLAB')
+        cd('~/Documents/MATLAB')
         save('K.mat','K')
         save('D.mat','D')
         
