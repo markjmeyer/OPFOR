@@ -15,8 +15,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% add paths %%
-% addpath('~/Documents/Code/OPFM/Code');
-addpath('/Users/mjm556/Documents/Research/OPFM/Code')
+addpath('~/Documents/Code/OPFM/Code');
 
 %% data parameters %%
 N       = 40;
@@ -102,9 +101,9 @@ for b = 3:6
     
             %% save output
             if b == 1
-                fname   = sprintf('/Users/mjm556/Documents/Research/OPFM/Simulation/WS/Exponential/Symmlet6/wsIndB%dS%d.mat',b,seed);
+                fname   = sprintf('~/OPFM/Simulation/WS/Exponential/Symmlet6/wsIndB%dS%d.mat',b,seed);
             elseif b == 2
-                fname   = sprintf('/Users/mjm556/Documents/Research/OPFM/Simulation/WS/Exponential/Symmlet8/wsIndB%dS%d.mat',b,seed);
+                fname   = sprintf('~/OPFM/Simulation/WS/Exponential/Symmlet8/wsIndB%dS%d.mat',b,seed);
             end
             save(fname, 'res');
     
@@ -154,13 +153,13 @@ for b = 3:6
             
             %% save output %%
             if b == 3
-                fname   = sprintf('/Volumes/G-DRIVE mobile/Research/Probit/Simulation/WS/Exponential/Bspline5/wsIndB%dS%d.mat',b,seed);
+                fname   = sprintf('~/Simulation/WS/Exponential/Bspline5/wsIndB%dS%d.mat',b,seed);
             elseif b == 4
-                fname   = sprintf('/Volumes/G-DRIVE mobile/Research/Probit/Simulation/WS/Exponential/Bspline10/wsIndB%dS%d.mat',b,seed);
+                fname   = sprintf('~/Simulation/WS/Exponential/Bspline10/wsIndB%dS%d.mat',b,seed);
             elseif b == 5
-                fname   = sprintf('/Volumes/G-DRIVE mobile/Research/Probit/Simulation/WS/Exponential/Ospline4/wsIndB%dS%d.mat',b,seed);
+                fname   = sprintf('~/Simulation/WS/Exponential/Ospline4/wsIndB%dS%d.mat',b,seed);
             else
-                fname   = sprintf('/Volumes/G-DRIVE mobile/Research/Probit/Simulation/WS/Exponential/Ospline6/wsIndB%dS%d.mat',b,seed);
+                fname   = sprintf('~/Simulation/WS/Exponential/Ospline6/wsIndB%dS%d.mat',b,seed);
             end
             save(fname, 'res');
     
