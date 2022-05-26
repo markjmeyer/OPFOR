@@ -12,8 +12,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% add paths %%
-% addpath('~/Documents/Code/OPFM/Code');
-addpath('/Users/mjm556/Documents/Research/OPFM/Code')
+addpath('~/Documents/Code/OPFM/Code');
 
 %% paths to access R from matlab (only run once) %%
 path1 = getenv('PATH');
@@ -104,9 +103,9 @@ for b = 3:6
     
             %% save output
             if b == 1
-                fname   = sprintf('/Users/mjm556/Documents/Research/OPFM/Simulation/GS/Exponential/Symmlet6/gsIndB%dS%d.mat',b,seed);
+                fname   = sprintf('~/OPFM/Simulation/GS/Exponential/Symmlet6/gsIndB%dS%d.mat',b,seed);
             elseif b == 2
-                fname   = sprintf('/Users/mjm556/Documents/Research/OPFM/Simulation/GS/Exponential/Symmlet8/gsIndB%dS%d.mat',b,seed);
+                fname   = sprintf('~/OPFM/Simulation/GS/Exponential/Symmlet8/gsIndB%dS%d.mat',b,seed);
             end
             save(fname, 'res');
     
@@ -156,13 +155,13 @@ for b = 3:6
             
             %% save output %%
             if b == 3
-                fname   = sprintf('/Volumes/G-DRIVE mobile/Research/Probit/Simulation/GS/Exponential/Bspline5/mlExpB%dS%d.mat',b,seed);
+                fname   = sprintf('~/Simulation/GS/Exponential/Bspline5/mlExpB%dS%d.mat',b,seed);
             elseif b == 4
-                fname   = sprintf('/Volumes/G-DRIVE mobile/Research/Probit/Simulation/GS/Exponential/Bspline10/mlExpB%dS%d.mat',b,seed);
+                fname   = sprintf('~/Simulation/GS/Exponential/Bspline10/mlExpB%dS%d.mat',b,seed);
             elseif b == 5
-                fname   = sprintf('/Volumes/G-DRIVE mobile/Research/Probit/Simulation/GS/Exponential/Ospline4/mlExpB%dS%d.mat',b,seed);
+                fname   = sprintf('~/Simulation/GS/Exponential/Ospline4/mlExpB%dS%d.mat',b,seed);
             else
-                fname   = sprintf('/Volumes/G-DRIVE mobile/Research/Probit/Simulation/GS/Exponential/Ospline6/mlExpB%dS%d.mat',b,seed);
+                fname   = sprintf('~/Simulation/GS/Exponential/Ospline6/mlExpB%dS%d.mat',b,seed);
             end
             save(fname, 'res');
     
