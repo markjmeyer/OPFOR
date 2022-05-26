@@ -99,6 +99,5 @@ for c = 1:3
 end
 
 %% save files %%
-cd('/Users/mjm556/Dropbox/Research/Drafts/Probit/Naive Sim/Output/ML')
 save('etamiseML.mat', 'mise')
 save('etaruntML.mat', 'runt')
