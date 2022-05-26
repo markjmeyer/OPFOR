@@ -77,7 +77,7 @@ for c = 1:3
         end
 
         %% save osullivan.R inputs for flat file communication %%
-        cd('/Users/mjm556/Documents/MATLAB')
+        cd('~/MATLAB')
         save('Y.mat','Y')
         save('X.mat','x1')
 
@@ -99,7 +99,6 @@ for c = 1:3
 end
 
 %% save files %%
-cd('/Users/mjm556/Dropbox/Research/Drafts/Probit/Naive Sim/Output/WS')
 save('etamiseWS.mat', 'mise')
 save('etaruntWS.mat', 'runt')
 
