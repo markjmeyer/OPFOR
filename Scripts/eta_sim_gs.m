@@ -99,7 +99,6 @@ for c = 1:3
 end
 
 %% save files %%
-cd('/Users/mjm556/Dropbox/Research/Drafts/Probit/Naive Sim/Output/GS')
 save('etamiseGS.mat', 'mise')
 save('etaruntGS.mat', 'runt')
 
